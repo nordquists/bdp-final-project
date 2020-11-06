@@ -11,6 +11,7 @@ def exhaust_url(url, destination):
         while filedata:
             to_append = str(beginning)[1:]
             new_url = url + to_append
+            print(new_url)
 
             filedata = urllib2.urlopen(new_url)
             datatowrite = filedata.read()
