@@ -5,22 +5,21 @@ PADDING_ZEROS = 12
 
 def exhaust_url(url, destination):
     beginning = int("1" + "0" * 12)
-    filedata = True
 
-    try:
-        while filedata:
-            to_append = str(beginning)[1:]
-            new_url = url + to_append
-            print(new_url)
+    # try:
+    while True:
+        to_append = str(beginning)[1:]
+        new_url = url + to_append
+        print(new_url)
 
-            filedata = urllib2.urlopen(new_url)
-            datatowrite = filedata.read()
-            with open(destination, 'wb') as f:
-                f.write(datatowrite)
+        filedata = urllib2.urlopen(new_url)
+        datatowrite = filedata.read()
+        with open(destination, 'wb') as f:
+            f.write(datatowrite)
 
-            beginning += 1
-    except:
-        return
+        beginning += 1
+    # except:
+    #     return
 
 def download(url_file, destination):
     with open(url_file, 'r') as urls:
