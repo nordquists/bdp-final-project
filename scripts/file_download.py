@@ -33,7 +33,7 @@ def main(url_file, destination):
     download(url_file, destination)
 
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
+    if len(sys.argv) != 3:
         print("Usage: python main.py <url_file> <destination>")
         sys.exit(1)
     main(sys.argv[1], sys.argv[2])
