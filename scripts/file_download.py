@@ -4,6 +4,7 @@ import urllib2
 PADDING_ZEROS = 12
 
 def exhaust_url(url, destination):
+    url = url.replace('\n','')
     beginning = int("1" + "0" * 12)
 
     # try:
@@ -22,7 +23,7 @@ def exhaust_url(url, destination):
     #     return
 
 def download(url_file, destination):
-    with open(url_file, 'wb') as urls:
+    with open(url_file, 'r') as urls:
         i = 1
         for url in urls:
             print("(" + str(i) + ") downloading " + url)
