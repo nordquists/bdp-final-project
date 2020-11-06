@@ -4,19 +4,22 @@ import urllib2
 PADDING_ZEROS = 12
 
 def exhaust_url(url, destination):
-    beginning =  1 + int("0" * 12)
+    beginning = int("1" + "0" * 12)
     filedata = True
 
-    while filedata:
-        to_append = str(beginning)[1:]
-        new_url = url + to_append
+    try:
+        while filedata:
+            to_append = str(beginning)[1:]
+            new_url = url + to_append
 
-        filedata = urllib2.urlopen(new_url)
-        datatowrite = filedata.read()
-        with open(destination, 'wb') as f:
-            f.write(datatowrite)
+            filedata = urllib2.urlopen(new_url)
+            datatowrite = filedata.read()
+            with open(destination, 'wb') as f:
+                f.write(datatowrite)
 
-        beginning += 1
+            beginning += 1
+    except:
+        return
 
 def download(url_file, destination):
     with open(url_file, 'r') as urls:

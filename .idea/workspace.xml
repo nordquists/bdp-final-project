@@ -38,13 +38,13 @@
         <counts>
           <entry key="gitignore" value="11" />
           <entry key="patterns" value="13" />
-          <entry key="py" value="517" />
+          <entry key="py" value="550" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="53" />
-          <entry key="Python" value="488" />
+          <entry key="Python" value="521" />
         </counts>
       </usages-collector>
     </session>
@@ -54,13 +54,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/file_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="315">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1604680110227" expanded="true" signature="81:415" ph="..." />
-                <marker date="1604680110227" expanded="true" signature="451:650" ph="..." />
-                <marker date="1604680110227" expanded="true" signature="721:759" ph="..." />
+                <marker date="1604680272981" expanded="true" signature="81:484" ph="..." />
+                <marker date="1604680272981" expanded="true" signature="520:719" ph="..." />
+                <marker date="1604680272981" expanded="true" signature="790:828" ph="..." />
               </folding>
             </state>
           </provider>
@@ -142,7 +142,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604680110488" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604680233707" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -170,12 +170,12 @@
       <option name="presentableId" value="Default" />
       <updated>1604637122678</updated>
       <workItem from="1604637134555" duration="896000" />
-      <workItem from="1604677511559" duration="2122000" />
+      <workItem from="1604677511559" duration="2282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3018000" />
+    <option name="totallyTimeSpent" value="3178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="0" />
@@ -230,13 +230,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/file_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="315">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1604680110227" expanded="true" signature="81:415" ph="..." />
-            <marker date="1604680110227" expanded="true" signature="451:650" ph="..." />
-            <marker date="1604680110227" expanded="true" signature="721:759" ph="..." />
+            <marker date="1604680272981" expanded="true" signature="81:484" ph="..." />
+            <marker date="1604680272981" expanded="true" signature="520:719" ph="..." />
+            <marker date="1604680272981" expanded="true" signature="790:828" ph="..." />
           </folding>
         </state>
       </provider>
