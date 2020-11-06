@@ -18,7 +18,7 @@ def exhaust_url(url, destination):
 
             name = url.split('/')[-1]
 
-            with open(destination + "/" + name, 'wb') as f:
+            with open(destination + "/" + name, 'a') as f:
                 f.write(datatowrite)
 
             beginning += 1
