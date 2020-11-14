@@ -5,7 +5,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 public class CleaningMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
-    static String[] searchStrings = {"Chicago", "Dec", "Java", "hackathon"};
 
     @Override
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
