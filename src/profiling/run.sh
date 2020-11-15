@@ -13,5 +13,5 @@ javac -classpath `yarn classpath`:. -d . Profiling.java
 jar -cvf profiling.jar *.class
 
 # Run the program
-hadoop jar profiling.jar Profiling /user/"$USER"/final/input_preprocessed /user/"$USER"/final/profiling_output/not_preprocessed
+hadoop jar profiling.jar Profiling /user/"$USER"/final/input /user/"$USER"/final/profiling_output/not_preprocessed
 
