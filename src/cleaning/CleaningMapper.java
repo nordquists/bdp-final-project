@@ -53,6 +53,5 @@ public class CleaningMapper extends Mapper<LongWritable, Text, Text, IntWritable
 
             context.write(new Text(mappedKey), new IntWritable(1));
         }
-
     }
 }
