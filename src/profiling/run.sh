@@ -5,13 +5,13 @@ rm *.class
 rm *.jar
 
 # Compile
-javac -classpath `yarn classpath` -d . CleaningMapper.java
-javac -classpath `yarn classpath` -d . CleaningReducer.java
-javac -classpath `yarn classpath`:. -d . Cleaning.java
+javac -classpath `yarn classpath` -d . ProfilingMapper.java
+javac -classpath `yarn classpath` -d . ProfilingReducer.java
+javac -classpath `yarn classpath`:. -d . Profiling.java
 
 # Create jar file
-jar -cvf cleaning.jar *.class
+jar -cvf profiling.jar *.class
 
 # Run the program
-hadoop jar cleaning.jar Cleaning /user/"$USER"/final/input /user/"$USER"/final/output
+hadoop jar profiling.jar Profiling /user/"$USER"/final/input /user/"$USER"/final/profiling_output
 
