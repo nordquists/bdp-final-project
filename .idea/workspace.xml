@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="467b1454-92f5-4b2a-b3fc-0a6e9028498b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiling/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiling/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiling/Profiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiling/Profiling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profiling/ProfilingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiling/ProfilingMapper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +42,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="11" />
-          <entry key="java" value="1640" />
+          <entry key="java" value="1655" />
           <entry key="patterns" value="13" />
           <entry key="py" value="632" />
           <entry key="sh" value="166" />
@@ -49,7 +50,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1640" />
+          <entry key="JAVA" value="1655" />
           <entry key="PLAIN_TEXT" value="219" />
           <entry key="Python" value="603" />
         </counts>
@@ -106,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/profiling/Profiling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="78" lean-forward="true" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+            <state relative-caret-position="405">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/profiling/ProfilingMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,11 +152,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/profiling/run.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+            <state relative-caret-position="30">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -192,13 +193,13 @@
         <option value="$PROJECT_DIR$/src/cleaning/run.sh" />
         <option value="$PROJECT_DIR$/src/cleaning/setup.sh" />
         <option value="$PROJECT_DIR$/src/cleaning/go.sh" />
-        <option value="$PROJECT_DIR$/src/profiling/ProfilingMapper.java" />
         <option value="$PROJECT_DIR$/src/profiling/ProfilingReducer.java" />
-        <option value="$PROJECT_DIR$/src/profiling/Profiling.java" />
         <option value="$PROJECT_DIR$/src/cleaning/Cleaning.java" />
         <option value="$PROJECT_DIR$/src/cleaning/CleaningMapper.java" />
         <option value="$PROJECT_DIR$/src/cleaning/CleaningReducer.java" />
         <option value="$PROJECT_DIR$/src/profiling/run.sh" />
+        <option value="$PROJECT_DIR$/src/profiling/ProfilingMapper.java" />
+        <option value="$PROJECT_DIR$/src/profiling/Profiling.java" />
       </list>
     </option>
   </component>
@@ -276,7 +277,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605455673232" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605456357617" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -314,12 +315,12 @@
       <workItem from="1604637134555" duration="896000" />
       <workItem from="1604677511559" duration="4904000" />
       <workItem from="1605368340854" duration="4169000" />
-      <workItem from="1605454631538" duration="1330000" />
+      <workItem from="1605454631538" duration="1526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11299000" />
+    <option name="totallyTimeSpent" value="11495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
@@ -437,26 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/profiling/Profiling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="78" lean-forward="true" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/profiling/ProfilingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cleaning/go.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -483,8 +464,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/profiling/run.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/profiling/ProfilingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/profiling/Profiling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

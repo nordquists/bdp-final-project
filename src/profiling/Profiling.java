@@ -17,15 +17,15 @@ public class Profiling {
         conf.set("mapreduce.output.textoutputformat.separator", ",");
 
         Job job = Job.getInstance(conf, "customformat");
-        job.setJarByClass(Cleaning.class);
+        job.setJarByClass(Profiling.class);
         job.setJobName("Github Profiling");
         job.setNumReduceTasks(1);
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-        job.setMapperClass(CleaningMapper.class);
-        job.setReducerClass(CleaningReducer.class);
+        job.setMapperClass(ProfilingMapper.class);
+        job.setReducerClass(ProfilingReducer.class);
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
