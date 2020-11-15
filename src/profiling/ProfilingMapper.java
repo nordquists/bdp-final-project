@@ -24,7 +24,7 @@ public class ProfilingMapper extends Mapper<LongWritable, Text, Text, IntWritabl
             if(columns.length != 5) return;
 
             // Extract the repository column into a variable
-            String name = columns[1];
+            String name = columns[0];
 
             context.write(new Text(name), new IntWritable(1));
         }
